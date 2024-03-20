@@ -1,7 +1,7 @@
 baseURL = "/"
 theme = "hugo_apero"
 languageCode = "en"
-title = "Hugo Apéro"
+title = "Mathieu Genu"
 author = "Denis Paté"
 copyright = "" # set to override the auto generated copyright using org info and now year
 # googleAnalytics = ""
