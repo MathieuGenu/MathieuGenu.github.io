@@ -12,11 +12,6 @@ action_link: /project
 # action_label: "Les Mat(t)hieu(x) &rarr;"
 action_type: text # text, button
 type: home
-links:
-- icon: github # icon name without the 'fa-'
-  icon_pack: fab
-  name: code
-  url: https://github.com/MathieuGenu
 ---
 
 ** index doesn't contain a body, just front matter above.
