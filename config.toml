@@ -89,10 +89,14 @@ enableEmoji = true
      icon      = "github" # icon name without the 'fa-'
      icon_pack = "fab"
      url       = "https://github.com/MathieuGenu"
-#  [[params.social]]
-#      icon      = "facebook-square" # icon name without the 'fa-'
-#      icon_pack = "fab"
-#      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+  [[params.social]]
+    icon      = "google-scholar" # icon name without the 'fa-'
+    icon_pack = "ai"
+    url       = "https://scholar.google.com/citations?hl=fr&user=MdqaW-oAAAAJ"
+  [[params.social]]
+    icon      = "linkedin" # icon name without the 'fa-'
+    icon_pack = "fab"
+    url       = "https://www.linkedin.com/in/mathieu-genu-3b3047168/"
 #  [[params.social]]
 #      icon      = "instagram" # icon name without the 'fa-'
 #      icon_pack = "fab"
@@ -113,6 +117,8 @@ enableEmoji = true
 #      icon      = "rss" # icon name without the 'fa-'
 #      icon_pack = "fas"
 #      url       = "/blog/index.xml"
+  
+
 
 [taxonomies]
   category = "categories"
