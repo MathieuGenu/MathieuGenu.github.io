@@ -1,0 +1,54 @@
+---
+title: Publications
+author: Mathieu Genu
+layout: single-sidebar
+date: '2024-06-29'
+---
+
+
+## Scientific articles
+
+**Mathieu Genu**, Anita Gilles, Philip S. Hammond, Kelly Macleod, Jade Paillé, Iosu Paradinas,
+Sophie Smout, Arliss J. Winship, and Matthieu Authier.
+*Evaluating Strategies for Managing Anthropogenic Mortality on Marine Mammals: An R Implementation With the Package RLA*.
+Frontiers in Marine Science, volume 8, article 795953, December 2021.
+<https://doi.org/10.3389/fmars.2021.795953>
+
+Fanny Ouzoulias, Nicolas Bousquet, **Mathieu Genu**, Anita Gilles, Jérôme Spitz, and Matthieu Authier. *Development of a new control rule for managing anthropogenic removals of protected, endangered or threatened species in marine ecosystems.*
+PeerJ, volume 12, article e16688, January 2024.
+<https://doi.org/10.7717/peerj.16688>
+
+Kylie Owen, Anita Gilles, Matthieu Authier, Julia Carlström, **Mathieu Genu**, Line Anker Kyhn, Dominik A. Nachtsheim, Nadya C. Ramírez-Martínez, Ursula Siebert, Martin Sköld, Jonas Teilmann, Bianca Unger and Signe Sveegaard.
+*A negative trend in abundance and an exceeded mortality limit call for conservation action for the Vulnerable Belt Sea harbour porpoise population.*
+Frontiers in Marine Science, volume 11, article 1289808, March 2024.
+<https://doi.org/10.3389/fmars.2024.1289808>
+
+Morgane Travers-Trolet, Pierre Bourdaud, **Mathieu Genu**, Laure Velez, and Youen Vermard.
+*The Risky Decrease of Fishing Reference Points Under Climate Change*.
+Frontiers in Marine Science, volume 7, article 568232, November 2020.
+<https://doi.org/10.3389/fmars.2020.568232>
+
+Etienne Rouby, Laurent Dubroca, Thomas Cloâtre, Sebastien Demanèche, **Mathieu Genu**, Kelly
+Macleod, Hélène Peltier, Vincent Ridoux, and Matthieu Authier. *Estimating Bycatch From Non-representative Samples (II): A Case Study of Pair Trawlers and Common Dolphins in the Bay of Biscay.*
+Frontiers in Marine Science, volume 8, article 795942, January 2022.
+<https://doi.org/10.3389/fmars.2021.795942>
+
+## Technical report
+
+Ariane Blanchard, Sophie Laran, Gary Williams, Olivier Van Canneyt, **Mathieu Genu**, Thierry Sanchez, Ghislain Doremus, and Pierre-Louis Gamelin. *Synthèse des données de l'Observatoire PELAGIS au sein du PNM des estuaires picards et de la mer d'Opale.* Technical report, 2023.
+<https://www.observatoire-pelagis.cnrs.fr/wp-content/uploads/2023/07/Rapport_Synthese_donnees_MAMO.pdf>
+
+Cécile Dars, Eléonore Méheust, **Mathieu Genu**, Paula Méndez-Fernández, Hélène Peltier, Sarah Wund, Florence Caurant, Willy Dabin, Fabien Demaret, Jérôme Spitz and Olivier Van Canneyt. *Les échouages de mammifères marins sur le littoral français en 2022*. Rapport scientifique de l'Observatoire Pelagis, La Rochelle Université et CNRS. 2022.
+<https://www.observatoire-pelagis.cnrs.fr/wp-content/uploads/2023/11/rapport_echouage_2022.pdf>
+
+Cécile Dars, Eléonore Méheust, **Mathieu Genu**, Paula Méndez-Fernández, Hélène Peltier, Sarah Wund, Florence Caurant, Willy Dabin, Fabien Demaret, Jérôme Spitz and Olivier Van Canneyt.
+*Les échouages de mammifères marins sur le littoral français en 2021.* Rapport Scientifique de l'Observatoire Pelagis, La Rochelle Université et CNRS. 2021.
+<https://www.observatoire-pelagis.cnrs.fr/wp-content/uploads/2022/11/rapport_echouage_2021_20221125.pdf>
+
+Nikki Taylor, Matthieu Authier, Roma Banga, **Mathieu Genu**, and Anita Gilles. *Marine Mammal By-catch*. Technical report, OSPAR Commission, London (UK), 2022.
+https://oap.ospar.org/en/ospar-assessments/quality-status-reports/qsr-2023/indicator-assessments/marine-mammal-bycatch
+
+## Master thesis report
+
+**Mathieu Genu**. *Relative importance of different mecanisms underlying fish response to climate change*. Mémoire de Fin d'Études de Master de l'Institut Supérieur des Sciences agronomiques, agroalimentaires, horticoles et du paysage. Agrocampus Ouest. September 2017.
+https://archimer.ifremer.fr/doc/00643/75513/

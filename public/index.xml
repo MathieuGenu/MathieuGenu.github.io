@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathieu Genu</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Mathieu Genu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>//localhost:1313/publication/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/</guid>
+      <description>Scientific articles&#xD;Mathieu Genu, Anita Gilles, Philip S. Hammond, Kelly Macleod, Jade Paillé, Iosu Paradinas, Sophie Smout, Arliss J. Winship, and Matthieu Authier. Evaluating Strategies for Managing Anthropogenic Mortality on Marine Mammals: An R Implementation With the Package RLA. Frontiers in Marine Science, volume 8, article 795953, December 2021. https://doi.org/10.3389/fmars.2021.795953&#xA;Fanny Ouzoulias, Nicolas Bousquet, Mathieu Genu, Anita Gilles, Jérôme Spitz, and Matthieu Authier. Development of a new control rule for managing anthropogenic removals of protected, endangered or threatened species in marine ecosystems.</description>
+    </item>
+  </channel>
+</rss>
