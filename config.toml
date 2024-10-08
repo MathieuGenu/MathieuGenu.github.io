@@ -1,5 +1,5 @@
 baseURL = "/"
-theme = "hugo_apero"
+theme = ["hugo_apero"]
 languageCode = "en"
 title = "Mathieu Genu"
 author = "Denis Paté"
@@ -135,7 +135,7 @@ enableEmoji = true
   [[menu.header]]
   name = "About"
   title = "About"
-  url = "/project/"
+  url = "/about/"
   weight = 2
   #[[menu.header]]
   #  name = "Projects"
