@@ -1,7 +1,7 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Mathieu Genu"
-role: "A Hugo theme"
+role: #"A Hugo theme"
 avatar_shape: rounded # circle, square, rounded, leave blank to exclude
 ---
 
