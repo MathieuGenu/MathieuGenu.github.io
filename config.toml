@@ -1,5 +1,5 @@
 baseURL = "/"
-theme = ["hugo_apero"]
+theme = ["hugo-apero"]
 languageCode = "en"
 title = "Mathieu Genu"
 author = "Denis Paté"
@@ -91,7 +91,7 @@ enableEmoji = true
      url       = "https://github.com/MathieuGenu"
   [[params.social]]
     icon      = "google-scholar" # icon name without the 'fa-'
-    icon_pack = "ai"
+    icon_pack = "fab"
     url       = "https://scholar.google.com/citations?hl=fr&user=MdqaW-oAAAAJ"
   [[params.social]]
     icon      = "linkedin" # icon name without the 'fa-'

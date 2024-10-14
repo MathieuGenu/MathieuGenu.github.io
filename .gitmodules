@@ -1,3 +1,6 @@
 [submodule "themes/hugo_apero"]
 	path = themes/hugo_apero
 	url = https://github.com/hugo-apero/hugo-apero.git
+[submodule "themes/hugo-apero"]
+	path = themes/hugo-apero
+	url = https://github.com/hugo-apero/hugo-apero.git

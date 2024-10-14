@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\themes\\hugo_apero\\assets\\*"
+    "..\\themes\\hugo-apero\\assets\\*"
    ]
   }
  }

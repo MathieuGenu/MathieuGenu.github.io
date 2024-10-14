@@ -7,9 +7,9 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   In progress...
+  <i class="fas fa-hard-hat"></i>
 show_outro: true
 outro: |
-  <i class="fa-solid fa-traffic-cone"></i>
 ---
 
 ** index doesn't contain a body, just front matter above.
