@@ -4,7 +4,7 @@
     <title>Tags on Mathieu Genu</title>
     <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Mathieu Genu</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>

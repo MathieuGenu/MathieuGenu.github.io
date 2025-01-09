@@ -1,7 +1,7 @@
 ---
 title: "Mathieu Genu"
 subtitle: "Data scientist"
-description: "Interested in Data visualisation, I am continuously learning to improve my skills to highlight what data have to say. I have sharpened my skills in data manipulation and data visualisation during 4 years of professionnal experience in ecological modelling and as a R package programmer."
+description: "Interested in Data visualisation, I am continuously learning to improve my skills to highlight what data have to say. I have sharpened my skills in data manipulation and data visualisation during 5 years of professionnal experience in ecological modelling and as a R package programmer."
 images:
   - /img/mg.png
 image_left: true
