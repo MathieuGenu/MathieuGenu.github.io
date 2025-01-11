@@ -6,7 +6,9 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  I'm a data scientist with 
+  I'm a data scientist. I worked 5 years as a R package developper in a lab working on marine mammals in France. I built a lot of shiny applications there
+
+  On my spare time i enjoy playing tennis, play chess, go running and code ;-)
   <i class="fas fa-hard-hat"></i>
 show_outro: true
 outro: |

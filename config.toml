@@ -98,10 +98,10 @@ enableEmoji = true
     icon      = "linkedin" # icon name without the 'fa-'
     icon_pack = "fab"
     url       = "https://www.linkedin.com/in/mathieu-genu-3b3047168/"
-#  [[params.social]]
-#      icon      = "instagram" # icon name without the 'fa-'
-#      icon_pack = "fab"
-#      url       = "https://www.instagram.com/explore/tags/apero/"
+ [[params.social]]
+     icon      = "bluesky" # icon name without the 'fa-'
+     icon_pack = "fab"
+     url       = "https://bsky.app/profile/steny35.bsky.social"
 #  [[params.social]]
 #      icon      = "twitter" # icon name without the 'fa-'
 #      icon_pack = "fab"
