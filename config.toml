@@ -62,8 +62,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Metropolis"
-  customheadingFontFamily = "Metropolis"
+  customtextFontFamily = "Open Sans"
+  customheadingFontFamily = "Open Sans"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
@@ -138,11 +138,11 @@ enableEmoji = true
   title = "About"
   url = "/about/"
   weight = 2
-  #[[menu.header]]
-  #  name = "Projects"
-  #  title = "Project Portfolio"
-  #  url = "/project/"
-  #  weight = 3
+  [[menu.header]]
+   name = "Projects"
+   title = "project"
+   url = "/project/"
+   weight = 3
   #[[menu.header]]
   #  name = "Talks"
   #  title = "Talks"
