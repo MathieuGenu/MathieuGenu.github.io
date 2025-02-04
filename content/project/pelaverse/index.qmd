@@ -1,0 +1,19 @@
+---
+title: pelaverse
+excerpt: A pakage to gather all Distance Sampling routine analysis
+date: "2025-02-04"
+categories: 
+  - R
+  - package
+layout: single
+featured: true
+draft: false
+format: hugo-md
+links: 
+  - icon: gitlab
+    icon_pack: fab
+    name: code
+    url: https://gitlab.univ-lr.fr/pelaverse
+---
+
+__"pelaverse"__ is a gitlab group that gather a bunch of packages created by [pelagis](https://www.observatoire-pelagis.cnrs.fr/). Its name is a reference to the [__tidyverse__](https://www.tidyverse.org/), _"a collection of packages"_ helping to manipulate, visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis. Those packages are mainly used for routine analysis of aerial campaign data. 
