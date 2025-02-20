@@ -13,7 +13,7 @@
       <link>//localhost:1313/project/pelaverse/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/project/pelaverse/</guid>
-      <description>&amp;ldquo;pelaverse&amp;rdquo; is a gitlab group that gather a bunch of packages created by pelagis. Its name is a reference to the tidyverse, &amp;ldquo;a collection of packages&amp;rdquo; helping to manipulate, visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis. Those packages are mainly used for routine analysis of aerial campaign data.</description>
+      <description>What is pelaverse ?&#xD;&amp;ldquo;pelaverse&amp;rdquo; is a group on La Rochelle university gitlab that gather a bunch of packages created by pelagis. Its name is a reference to tidyverse, &amp;ldquo;a collection of packages&amp;rdquo; helping to manipulate and visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis for the use of pelagis and collaborators.&#xA;Aerial observation surveys&#xD;One of the main activity of pelagis lab is to survey marine megafauna in french oceans.</description>
     </item>
     <item>
       <title>RLA</title>

@@ -22,12 +22,12 @@
   
     
   
-<meta name="description" content="A pakage to gather all Distance Sampling routine analysis">
+<meta name="description" content="A package to gather all Distance Sampling routine analysis">
 
 
 <meta property="og:site_name" content="Mathieu Genu">
 <meta property="og:title" content="pelaverse | Mathieu Genu">
-<meta property="og:description" content="A pakage to gather all Distance Sampling routine analysis" />
+<meta property="og:description" content="A package to gather all Distance Sampling routine analysis" />
 <meta property="og:type" content="page" />
 <meta property="og:url" content="//localhost:1313/project/pelaverse/" />
 <meta property="og:locale" content="en">
@@ -42,9 +42,10 @@
     
     
   <meta itemprop="name" content="pelaverse">
-<meta itemprop="description" content="&ldquo;pelaverse&rdquo; is a gitlab group that gather a bunch of packages created by pelagis. Its name is a reference to the tidyverse, &ldquo;a collection of packages&rdquo; helping to manipulate, visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis. Those packages are mainly used for routine analysis of aerial campaign data."><meta itemprop="datePublished" content="2025-02-04T00:00:00+00:00" />
+<meta itemprop="description" content="What is pelaverse ?&ldquo;pelaverse&rdquo; is a group on La Rochelle university gitlab that gather a bunch of packages created by pelagis. Its name is a reference to tidyverse, &ldquo;a collection of packages&rdquo; helping to manipulate and visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis for the use of pelagis and collaborators.
+Aerial observation surveysOne of the main activity of pelagis lab is to survey marine megafauna in french oceans."><meta itemprop="datePublished" content="2025-02-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2025-02-04T00:00:00+00:00" />
-<meta itemprop="wordCount" content="58"><meta itemprop="image" content="//localhost:1313/project/pelaverse/featured-pelaverse.png" />
+<meta itemprop="wordCount" content="931"><meta itemprop="image" content="//localhost:1313/project/pelaverse/featured-pelaverse.png" />
 <meta itemprop="keywords" content="" />
   
   <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -129,9 +130,303 @@
 
       </header>
       <section class="post-body pt5 pb4">
-        <p><strong>&ldquo;pelaverse&rdquo;</strong> is a gitlab group that gather a bunch of packages created by 
-<a href="https://www.observatoire-pelagis.cnrs.fr/" target="_blank" rel="noopener">pelagis</a>. Its name is a reference to the 
-<a href="https://www.tidyverse.org/" target="_blank" rel="noopener"><strong>tidyverse</strong></a>, <em>&ldquo;a collection of packages&rdquo;</em> helping to manipulate, visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis. Those packages are mainly used for routine analysis of aerial campaign data.</p>
+        
+
+
+
+<h2 id="what-is-pelaverse-">What is pelaverse ?
+  <a href="#what-is-pelaverse-"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><strong>&ldquo;pelaverse&rdquo;</strong> is a group on La Rochelle university gitlab that gather a bunch of packages created by 
+<a href="https://www.observatoire-pelagis.cnrs.fr/" target="_blank" rel="noopener">pelagis</a>. Its name is a reference to 
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener"><strong>tidyverse</strong></a>, <em>&ldquo;a collection of packages&rdquo;</em> helping to manipulate and visualize data. In the same spirit as tidyverse, pelaverse aims at gathering R packages used/created by pelagis for the use of pelagis and collaborators.</p>
+
+
+
+
+<h2 id="aerial-observation-surveys">Aerial observation surveys
+  <a href="#aerial-observation-surveys"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>One of the main activity of pelagis lab is to survey marine megafauna in french oceans. To do so, aerial monitoring is carried out following a transect scheme (see figure above). From these observations along the transect it is possible to extrapolate abundance of each species/taxa using 
+<a href="https://distancesampling.org/" target="_blank" rel="noopener">Distance sampling</a> modelling.</p>
+<blockquote>
+<p>We developed a 
+<a href="https://pelabox.univ-lr.fr/pelagis/PelaObs/" target="_blank" rel="noopener">shiny app</a> to visualize observation campaign, it is possible to filter on date, species, area, &hellip;</p>
+</blockquote>
+<figure>
+<img src="img/plane_transect.png" alt="Aerial transect of marine megafauna. Plane flying over the ocean (left). Observer spotting animals on the water (middle). Sightings recorded in the field computer (right)" />
+<figcaption aria-hidden="true">Aerial transect of marine megafauna. Plane flying over the ocean (left). Observer spotting animals on the water (middle). Sightings recorded in the field computer (right)</figcaption>
+</figure>
+<!-- <figure><img src="img/plane_transect.png%20"
+    alt="A screenshot of a Mastodon profile with two links in the field section. One of them appears with a green mark next to it."><figcaption>
+      <p>A verified link will have a green tick next to its label on your profile.</p>
+    </figcaption>
+</figure>
+ -->
+<p>A group of packages are dedicated to the analysis of aerial observation survey :</p>
+<ul>
+<li>{pelaCDS} : package for <strong>C</strong>onventionnal <strong>D</strong>istance <strong>S</strong>ampling analysis of observation data</li>
+<li>{pelaDSM} : package to adjust <strong>D</strong>ensity <strong>S</strong>urface <strong>M</strong>odels</li>
+<li>{pelaKrig} : package to adjust <strong>Krig</strong>ing models</li>
+</ul>
+
+
+
+
+<h2 id="an-example-with-pelacds">An example with pelaCDS
+  <a href="#an-example-with-pelacds"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>We will have a look of what {pelaCDS}, a package of the pelaverse, have to offer.</p>
+<ol>
+<li>Get pelaCDS package</li>
+<li>Data used in this example</li>
+<li>Build a repository</li>
+<li>Analyze data</li>
+</ol>
+<!-- end list -->
+
+
+
+
+<h3 id="1-get-pelacds-package">1. Get pelaCDS package
+  <a href="#1-get-pelacds-package"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>I assume you have installed R on your machine and a IDE of your convenience.
+To download {pelaCDS} just run :</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;remotes&#34;</span>)
+</span></span><span style="display:flex;"><span>remotes<span style="color:#f92672">::</span><span style="color:#a6e22e">install_gitlab</span>(
+</span></span><span style="display:flex;"><span>  host <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://gitlab.univ-lr.fr/&#34;</span>,
+</span></span><span style="display:flex;"><span>  repo <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;pelaverse/pelacds&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div></details>
+
+
+
+
+<h3 id="2-data-used-in-this-example">2. Data used in this example
+  <a href="#2-data-used-in-this-example"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>For this example, we will use the data of the pelaCDS package <strong><code>SPEE_data</code></strong>. This data contains a list of multiple data, we will keep only <code>effort_raw</code> and <code>obs_with_sp</code> corresponding to the effort transect of SPEE campaign and associated observations for 2 groups :</p>
+<ul>
+<li><em>Mola mola</em> the sunfish with code <code>MOLMOL</code> in <code>species</code> column of <code>obs_with_sp</code></li>
+<li>jellyfish with code <code>JELLY</code> in <code>species</code> column <code>obs_with_sp</code></li>
+</ul>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(pelaCDS)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(ggplot2)       <span style="color:#75715e"># graphics</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(sf)            <span style="color:#75715e"># handle sf object </span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(rnaturalearth) <span style="color:#75715e"># coastlines</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(ggtext)        <span style="color:#75715e"># colour in title</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(patchwork)     <span style="color:#75715e"># multiple graph layout</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span>(SPEE_data)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>fr <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ne_countries</span>(country <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;France&#34;</span>, scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>europe <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ne_countries</span>(continent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;europe&#34;</span>,scale <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>effort <span style="color:#f92672">&lt;-</span> SPEE_data<span style="color:#f92672">$</span>effort_raw
+</span></span><span style="display:flex;"><span>obs <span style="color:#f92672">&lt;-</span> SPEE_data<span style="color:#f92672">$</span>obs_with_sp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>title_size <span style="color:#f92672">&lt;-</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>map_zone <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> europe) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_sf</span>(
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> effort <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">st_union</span>() <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">st_convex_hull</span>(),
+</span></span><span style="display:flex;"><span>        colour <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;red&#34;</span>,
+</span></span><span style="display:flex;"><span>        linewidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>        fill <span style="color:#f92672">=</span> <span style="color:#66d9ef">NA</span>
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">coord_sf</span>(
+</span></span><span style="display:flex;"><span>        xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">-12</span>,<span style="color:#ae81ff">15</span>),
+</span></span><span style="display:flex;"><span>        ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">37</span>,<span style="color:#ae81ff">60</span>)
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">labs</span>(title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;span style=&#39;color: red;&#39;&gt;SPEE zone&lt;/span&gt; according to Europe&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme_void</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme</span>(plot.title <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_markdown</span>(hjust <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, size <span style="color:#f92672">=</span> title_size))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>map_zone
+</span></span></code></pre></div></details>
+<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" />
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(rphylopic)
+</span></span><span style="display:flex;"><span>mola_pic <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_phylopic</span>(uuid <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;3e072993-d4fd-440a-8929-07bb19391542&#34;</span>)
+</span></span><span style="display:flex;"><span>jelly_pic <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_phylopic</span>(uuid <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;6f25228d-34f6-4a84-b52d-ce03d3fcd152&#34;</span>)
+</span></span><span style="display:flex;"><span>map_effort <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> fr) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> effort) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">coord_sf</span>(
+</span></span><span style="display:flex;"><span>        expand <span style="color:#f92672">=</span> F,
+</span></span><span style="display:flex;"><span>        xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">-4</span>, <span style="color:#ae81ff">0</span>),
+</span></span><span style="display:flex;"><span>        ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">45</span>, <span style="color:#ae81ff">47</span>)
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">labs</span>(title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Centroids of transect segments&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme_bw</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme</span>(plot.title <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_markdown</span>(hjust <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, size <span style="color:#f92672">=</span> title_size))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>map_obs <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_sf</span>(data <span style="color:#f92672">=</span> fr) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_sf</span>(
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> obs,
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">aes</span>(colour <span style="color:#f92672">=</span> species),
+</span></span><span style="display:flex;"><span>        alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.6</span>,
+</span></span><span style="display:flex;"><span>        show.legend <span style="color:#f92672">=</span> F
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_phylopic</span>(
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> <span style="color:#a6e22e">data.frame</span>(
+</span></span><span style="display:flex;"><span>            x <span style="color:#f92672">=</span> <span style="color:#ae81ff">-0.5</span>,
+</span></span><span style="display:flex;"><span>            y <span style="color:#f92672">=</span> <span style="color:#ae81ff">46.8</span>
+</span></span><span style="display:flex;"><span>        ), <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> x, y <span style="color:#f92672">=</span> y),
+</span></span><span style="display:flex;"><span>        img <span style="color:#f92672">=</span> mola_pic,
+</span></span><span style="display:flex;"><span>        fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;red&#34;</span>,
+</span></span><span style="display:flex;"><span>        alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.7</span>,
+</span></span><span style="display:flex;"><span>        height <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.3</span>
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">geom_phylopic</span>(
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> <span style="color:#a6e22e">data.frame</span>(
+</span></span><span style="display:flex;"><span>            x <span style="color:#f92672">=</span> <span style="color:#ae81ff">-0.5</span>,
+</span></span><span style="display:flex;"><span>            y <span style="color:#f92672">=</span> <span style="color:#ae81ff">46.5</span>
+</span></span><span style="display:flex;"><span>        ), <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> x, y <span style="color:#f92672">=</span> y),
+</span></span><span style="display:flex;"><span>        img <span style="color:#f92672">=</span> jelly_pic,
+</span></span><span style="display:flex;"><span>        fill <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;forestgreen&#34;</span>,
+</span></span><span style="display:flex;"><span>        alpha <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.7</span>,
+</span></span><span style="display:flex;"><span>        height <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.3</span>
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">coord_sf</span>(
+</span></span><span style="display:flex;"><span>        expand <span style="color:#f92672">=</span> F,
+</span></span><span style="display:flex;"><span>        xlim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">-4</span>, <span style="color:#ae81ff">0</span>),
+</span></span><span style="display:flex;"><span>        ylim <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">45</span>, <span style="color:#ae81ff">47</span>)
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">scale_colour_manual</span>(values <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;MOLMOL&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;red&#34;</span>, <span style="color:#e6db74">&#34;JELLY&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;forestgreen&#34;</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">labs</span>(title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Observations of &lt;span style=&#39;color: red;&#39; &gt;*Mola mola*&lt;/span&gt; and &lt;span style=&#39;color: forestgreen;&#39; &gt;Jellyfish&lt;/span&gt;&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme_bw</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">theme</span>(
+</span></span><span style="display:flex;"><span>        plot.title <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_markdown</span>(hjust <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, size <span style="color:#f92672">=</span> title_size),
+</span></span><span style="display:flex;"><span>        axis.title <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_blank</span>()
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>map_effort <span style="color:#f92672">|</span> map_obs 
+</span></span></code></pre></div></details>
+<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-3-1.png" width="768" />
+
+
+
+
+<h3 id="3-create-a-repository-with-all-scripts-prefilled">3. Create a repository with all scripts prefilled
+  <a href="#3-create-a-repository-with-all-scripts-prefilled"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(pelaCDS)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">create_cds_proj</span>(<span style="color:#e6db74">&#34;c:/users/computer/Documents/my_cds_analysis&#34;</span>)
+</span></span></code></pre></div></details>
+<p>By running the previous lines of code, you will create a repository <strong>my_cds_analysis</strong> with this tree :</p>
+<!-- ![tree](tree.png){#fig-tree width='100px'} -->
+<img src="img/tree.png" width="50%" title="Titre de la figure">
+<p>Data have to be in <strong>data</strong> sub-directory (In our example, effort and observation are already in pelaCDS package).</p>
+
+
+
+
+<h4 id="modification-of-prefilled-scripts">Modification of prefilled scripts
+  <a href="#modification-of-prefilled-scripts"></a>
+</h4>
+<p>Scripts have to be adapted for each case study.</p>
+
+
+
+
+<h3 id="4-analysing-data">4. Analysing data
+  <a href="#4-analysing-data"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>After dropping data at the good spot in the repository, adapting scripts for your case study and launched scripts in the correct order, you can visualise the resulting adjustment of your model</p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(tidyverse)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(readxl)     <span style="color:#75715e"># open excel files</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(rphylopic)  <span style="color:#75715e"># species silhouette</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(showtext)   <span style="color:#75715e"># Modify font</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showtext.auto</span>()
+</span></span><span style="display:flex;"><span>franklin <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">google_fonts</span>(<span style="color:#e6db74">&#34;Libre Franklin&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>tab <span style="color:#f92672">&lt;-</span> readxl<span style="color:#f92672">::</span><span style="color:#a6e22e">read_excel</span>(<span style="color:#e6db74">&#34;data/table_summary.xlsx&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mola_pic <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_phylopic</span>(uuid <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;3e072993-d4fd-440a-8929-07bb19391542&#34;</span>)
+</span></span><span style="display:flex;"><span>jelly_pic <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">get_phylopic</span>(uuid <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;6f25228d-34f6-4a84-b52d-ce03d3fcd152&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pic_data <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">tibble</span>(
+</span></span><span style="display:flex;"><span>  x <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>),
+</span></span><span style="display:flex;"><span>  y <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1300</span>,<span style="color:#ae81ff">75000</span>),
+</span></span><span style="display:flex;"><span>  height <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">200</span>,<span style="color:#ae81ff">10000</span>),
+</span></span><span style="display:flex;"><span>  taxon <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;MOLMOL&#34;</span>,<span style="color:#e6db74">&#34;JELLY&#34;</span>),
+</span></span><span style="display:flex;"><span>  img <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(mola_pic,jelly_pic)
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>tab <span style="color:#f92672">&lt;-</span> tab <span style="color:#f92672">%&gt;%</span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">separate</span>(region,<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;survey&#34;</span>,<span style="color:#e6db74">&#34;cycle&#34;</span>,<span style="color:#e6db74">&#34;sub_region&#34;</span>,<span style="color:#e6db74">&#34;strate&#34;</span>,<span style="color:#e6db74">&#34;session&#34;</span>)) <span style="color:#f92672">%&gt;%</span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">rename</span>(N <span style="color:#f92672">=</span> animal_abundance,
+</span></span><span style="display:flex;"><span>         N_min <span style="color:#f92672">=</span> <span style="color:#a6e22e">`abon_min_</span>(IC95<span style="color:#f92672">%)`,
+</span></span></span><span style="display:flex;"><span><span style="color:#f92672">         N_max = `abon_max_(IC95%</span>)`) <span style="color:#f92672">%&gt;%</span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mutate</span>(season <span style="color:#f92672">=</span> <span style="color:#a6e22e">case_when</span>(
+</span></span><span style="display:flex;"><span>    session <span style="color:#f92672">%in%</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;5&#34;</span>) <span style="color:#f92672">~</span> <span style="color:#e6db74">&#34;winter&#34;</span>,
+</span></span><span style="display:flex;"><span>    session <span style="color:#f92672">%in%</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;2&#34;</span>,<span style="color:#e6db74">&#34;6&#34;</span>) <span style="color:#f92672">~</span> <span style="color:#e6db74">&#34;spring&#34;</span>,
+</span></span><span style="display:flex;"><span>    session <span style="color:#f92672">%in%</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;3&#34;</span>,<span style="color:#e6db74">&#34;7&#34;</span>) <span style="color:#f92672">~</span> <span style="color:#e6db74">&#34;summer&#34;</span>,
+</span></span><span style="display:flex;"><span>    session <span style="color:#f92672">%in%</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;4&#34;</span>,<span style="color:#e6db74">&#34;8&#34;</span>) <span style="color:#f92672">~</span> <span style="color:#e6db74">&#34;autumn&#34;</span>,
+</span></span><span style="display:flex;"><span>  ) <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">factor</span>(levels <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;winter&#34;</span>,<span style="color:#e6db74">&#34;spring&#34;</span>,<span style="color:#e6db74">&#34;summer&#34;</span>,<span style="color:#e6db74">&#34;autumn&#34;</span>)),
+</span></span><span style="display:flex;"><span>  year <span style="color:#f92672">=</span> <span style="color:#a6e22e">as.factor</span>(<span style="color:#a6e22e">ifelse</span>(cycle <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2019</span>,<span style="color:#ae81ff">2020</span>)))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>tab <span style="color:#f92672">%&gt;%</span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ggplot</span>(<span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> season, y <span style="color:#f92672">=</span> N, fill <span style="color:#f92672">=</span> year)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_bar</span>(stat <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;identity&#34;</span>, position <span style="color:#f92672">=</span> <span style="color:#a6e22e">position_dodge</span>(width <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.9</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_errorbar</span>(<span style="color:#a6e22e">aes</span>(ymin <span style="color:#f92672">=</span> N_min, ymax <span style="color:#f92672">=</span> N_max), 
+</span></span><span style="display:flex;"><span>                position <span style="color:#f92672">=</span> <span style="color:#a6e22e">position_dodge</span>(width <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.9</span>),
+</span></span><span style="display:flex;"><span>                width <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.3</span>,
+</span></span><span style="display:flex;"><span>                ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_phylopic</span>(data <span style="color:#f92672">=</span> pic_data,
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">aes</span>(img <span style="color:#f92672">=</span> img, 
+</span></span><span style="display:flex;"><span>                    x<span style="color:#f92672">=</span> x, 
+</span></span><span style="display:flex;"><span>                    y<span style="color:#f92672">=</span> y,
+</span></span><span style="display:flex;"><span>                    ),
+</span></span><span style="display:flex;"><span>                width <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.75</span>,
+</span></span><span style="display:flex;"><span>                inherit.aes <span style="color:#f92672">=</span> F) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">labs</span>(y <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Abundance&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">scale_fill_manual</span>(values <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;2019&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;darkred&#34;</span>, <span style="color:#e6db74">&#34;2020&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;steelblue&#34;</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">scale_y_continuous</span>(expand <span style="color:#f92672">=</span> <span style="color:#a6e22e">expansion</span>(mult <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0.1</span>))) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">facet_wrap</span>(<span style="color:#a6e22e">vars</span>(taxon),scales <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;free_y&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">theme_classic</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">theme</span>(axis.title.x <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_blank</span>(),
+</span></span><span style="display:flex;"><span>        legend.title <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_blank</span>(),
+</span></span><span style="display:flex;"><span>        strip.background <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_blank</span>(),
+</span></span><span style="display:flex;"><span>        strip.text <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_blank</span>(),
+</span></span><span style="display:flex;"><span>        text <span style="color:#f92672">=</span> <span style="color:#a6e22e">element_text</span>(family <span style="color:#f92672">=</span> franklin, size <span style="color:#f92672">=</span> <span style="color:#ae81ff">22</span>))
+</span></span></code></pre></div></details>
+<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-5-1.png" width="768" />
 
         
         <details closed class="f6 fw7 input-reset">
@@ -141,7 +436,7 @@
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">1 minute read, 58 words</dd>
+    <dd class="fw5 ml0">5 minute read, 931 words</dd>
   </dl>
   
   <dl class="f6 lh-copy">

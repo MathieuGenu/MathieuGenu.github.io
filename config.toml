@@ -2,7 +2,7 @@ baseURL = "/"
 theme = ["hugo-apero"]
 languageCode = "en"
 title = "Mathieu Genu"
-author = "Denis Paté"
+author = "Mathieu Genu"
 copyright = "" # set to override the auto generated copyright using org info and now year
 # googleAnalytics = ""
 # disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -26,7 +26,7 @@ enableEmoji = true
     ordered = false
   [markup.highlight]
     # one of: https://xyproto.github.io/splash/docs/ 
-    style = "github"
+    style = "monokai"
     
 [params]
   orgName = "RStudio"
@@ -102,22 +102,7 @@ enableEmoji = true
      icon      = "bluesky" # icon name without the 'fa-'
      icon_pack = "fab"
      url       = "https://bsky.app/profile/steny35.bsky.social"
-#  [[params.social]]
-#      icon      = "twitter" # icon name without the 'fa-'
-#      icon_pack = "fab"
-#      url       = "https://twitter.com/hashtag/apéro"
-#  [[params.social]]
-#      icon      = "impactstory" # icon name without the 'fa-'
-#      icon_pack = "ai"
-#      url       = "https://impactstory.org/u/0000-0002-8082-1890"
-#  [[params.social]]
-#      icon      = "orcid" # icon name without the 'fa-'
-#      icon_pack = "ai"
-#      url       = "http://orcid.org/0000-0002-8082-1890"
-#  [[params.social]]
-#      icon      = "rss" # icon name without the 'fa-'
-#      icon_pack = "fas"
-#      url       = "/blog/index.xml"
+
   
 
 
