@@ -20,7 +20,7 @@
       <link>//localhost:1313/project/rla/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/project/rla/</guid>
-      <description>RLA in 2 words&#xD;RLA is an R package that aims to estimate removal limit of marine mammals species. Limits are estimated thanks to a control rule which is linked to a biological model of the species. The control rule correspond to an equation/algorithm that gives the limit of individuals which can be removed from the population. The coupled model has a chronological dimension to project future management scenarios of removal mitigation (For example, let&amp;rsquo;s say we decrease fishing effort which is a major threat for our population of marine mammal, what could be the resulting situation in 50 years ?</description>
+      <description>RLA in 2 words&#xD;RLA is an R package that aims to estimate removal limit of marine mammals species. Limits are estimated thanks to a control rule which is linked to a biological model of the species. The control rule correspond to an equation/algorithm that gives the limit of individuals which can be removed from the population without threatening its long-term viability (the definition of long-term viability must be provided by users).</description>
     </item>
   </channel>
 </rss>

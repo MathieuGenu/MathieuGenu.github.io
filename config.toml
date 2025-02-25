@@ -15,6 +15,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 enableEmoji = true
 
 
+
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark.renderer]
@@ -119,15 +120,15 @@ enableEmoji = true
     url = "/publication/"
     weight = 1
   [[menu.header]]
-  name = "About"
-  title = "About"
-  url = "/about/"
-  weight = 2
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 2
   [[menu.header]]
-   name = "Projects"
-   title = "project"
-   url = "/project/"
-   weight = 3
+    name = "Projects"
+    title = "project"
+    url = "/project/"
+    weight = 3
   #[[menu.header]]
   #  name = "Talks"
   #  title = "Talks"
@@ -139,27 +140,27 @@ enableEmoji = true
   #  url = "/collection/"
   #  weight = 5
   [[menu.header]]
-   name = "cv"
-   title = "cv"
-   url = "/resume/index.html"
-   weight = 6
+    name = "cv"
+    title = "cv"
+    url = "/resume/index.html"
+    weight = 6
     
-  # Configure footer  
-  [[menu.footer]]
-    name = "License"
-    title = "License"
-    url = "/license/"
-    weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
+  # # Configure footer  
+  # [[menu.footer]]
+  #   name = "License"
+  #   title = "License"
+  #   url = "/license/"
+  #   weight = 1
+  # [[menu.footer]]
+  #   name = "Contact"
+  #   title = "Contact form"
+  #   url = "/contact/"
+  #   weight = 2
+  # [[menu.footer]]
+  #   name = "Contributors"
+  #   title = "Contributors"
+  #   url = "/contributors/"
+  #   weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 #[privacy]
