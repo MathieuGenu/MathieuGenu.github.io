@@ -1,5 +1,5 @@
 ---
-title: All the projects that I worked on 
+title: Projects I worked on 
 description: ""
 author: ""
 show_post_thumbnail: true

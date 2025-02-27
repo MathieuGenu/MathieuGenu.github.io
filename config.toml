@@ -115,20 +115,24 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "publication"
-    title = "publication"
-    url = "/publication/"
-    weight = 1
-  [[menu.header]]
     name = "About"
     title = "About"
     url = "/about/"
-    weight = 2
+    weight = 1
+
   [[menu.header]]
     name = "Projects"
     title = "project"
     url = "/project/"
+    weight = 2
+
+  [[menu.header]]
+    name = "publication"
+    title = "publication"
+    url = "/publication/"
     weight = 3
+  
+  
   #[[menu.header]]
   #  name = "Talks"
   #  title = "Talks"
@@ -143,7 +147,12 @@ enableEmoji = true
     name = "cv"
     title = "cv"
     url = "/resume/index.html"
-    weight = 6
+    weight = 4
+  [[menu.header]]
+    name = "Contact"
+    title = 'Contact'
+    url = "mailto:mathieu.genu@gmail.com"
+    weight = 5
     
   # # Configure footer  
   # [[menu.footer]]
