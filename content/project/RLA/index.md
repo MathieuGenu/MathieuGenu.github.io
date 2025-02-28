@@ -1,5 +1,5 @@
 ---
-title: "RLA"
+title: RLA
 subtitle: ""
 excerpt: "An R package to estimate Removal Limit of marine mammals under Management Strategy Evaluation"
 date: 2025-01-15

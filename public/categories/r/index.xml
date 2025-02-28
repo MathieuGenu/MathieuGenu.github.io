@@ -6,8 +6,22 @@
     <description>Recent content in R on Mathieu Genu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PelaObs</title>
+      <link>//localhost:1313/project/pelaobs/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/pelaobs/</guid>
+      <description>This app present all the data of plane and boat surveys available to download. First you choose your area of interest, type of campaign (plane and/or boat), period, species. Than the app show you occurence on map according to the effort. After that, it is possible to download your filtered data by filling a form.</description>
+    </item>
+    <item>
+      <title>SPEE</title>
+      <link>//localhost:1313/project/spee/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/spee/</guid>
+      <description>&#xD;This shiny app gather key results of the SPEE aerial survey which occured during each season of 2019 to 2020 and winter 2021 (more informaton here).&#xA;Among this results :&#xA;Raw sightings of megafauna Observation rate DSM prediction densities Relative index of densities which correspond to the mean percentage of occupation of each cell of the grid by species </description>
+    </item>
     <item>
       <title>pelaverse</title>
       <link>//localhost:1313/project/pelaverse/</link>

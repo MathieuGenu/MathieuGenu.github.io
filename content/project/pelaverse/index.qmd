@@ -1,6 +1,6 @@
 ---
 title: pelaverse
-excerpt: A package to gather all Distance Sampling routine analysis
+excerpt: A group of packages to gather all Distance Sampling and modelling routine analysis
 date: "2025-02-04"
 categories: 
   - R
@@ -254,7 +254,7 @@ tab %>%
                 inherit.aes = F) +
   labs(y = "Abundance") +
   scale_fill_manual(values = c("2019" = "darkred", "2020" = "steelblue")) +
-  scale_y_continuous(expand = expansion(mult = c(0,0.1))) +
+  scale_y_continuous(expand = expansion(mult = c(0,0.1)), labels = scales::label_number()) +
   facet_wrap(vars(taxon),scales = "free_y") +
   theme_classic() +
   theme(axis.title.x = element_blank(),
