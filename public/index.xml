@@ -6,8 +6,15 @@
     <description>Recent content on Mathieu Genu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/services/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/services/</guid>
+      <description>I offer programming services tailored to businesses and researchers looking to leverage their data efficiently.&#xD;🔍 Data Analysis&#xD;Data cleaning and preparation&#xD;Descriptive and inferential statistical analysis&#xD;Modeling and bayesian inference&#xD;📊 Data Visualization&#xD;Interactive and static charts&#xD;Custom dashboards&#xD;Advanced visualizations with ggplot2, plotly, etc.&#xD;💻 Shiny App Development&#xD;Creation of interactive web applications&#xD;Business/Analysis process automation&#xD;📄 Automated Reporting with Quarto&#xD;Dynamic report generation in HTML, PDF, and Word&#xD;Integration of analyses and graphics&#xD;Automated updates&#xD;📦 R Package Development&#xD;Creation of custom R packages&#xD;Code modularization and documentation&#xD;Package testing and CRAN submission&#xD;📩 Need a custom service?</description>
+    </item>
     <item>
       <title>PelaObs</title>
       <link>//localhost:1313/project/pelaobs/</link>
