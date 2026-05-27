@@ -1,0 +1,30 @@
+```{=html}
+<div class="project-grid">
+<% for (const item of items) { %>
+  <a href="<%- item.path %>" class="project-card-link">
+    <div class="project-card">
+      <% if (item.image) { %>
+        <div class="project-card-image">
+          <img src="<%- item.image %>" alt="<%- item.title %>">
+        </div>
+      <% } %>
+      <div class="project-card-content">
+        <h3 class="project-card-title"><%- item.title %></h3>
+        <% if (item.description) { %>
+          <p class="project-card-description">
+            <%- item.description %>
+          </p>
+        <% } %>
+        <% if (item.categories && item.categories.length > 0) { %>
+          <div class="project-card-tags">
+            <% item.categories.forEach(function(cat) { %>
+              <span class="project-tag"><%- cat %></span>
+            <% }) %>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  </a>
+<% } %>
+</div>
+```

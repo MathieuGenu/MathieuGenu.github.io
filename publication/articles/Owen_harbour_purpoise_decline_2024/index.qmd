@@ -1,0 +1,81 @@
+---
+title: "A negative trend in abundance and an exceeded mortality limit call for conservation action for the Vulnerable Belt Sea harbour porpoise population"
+year: 2024
+authors:
+  - name: Kylie Owen
+    orcid: 0000-0002-8986-482X
+    affiliation: Department of Population Analysis and Monitoring, Swedish Museum of Natural History, Stockholm, Sweden
+  - name: Anita Gilles
+    url: https://www.tiho-hannover.de/en/itaw/beschaeftigte/beschaeftigte-buesum/anita-gilles
+    orcid: 0000-0001-7234-8645
+    affiliation: Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Foundation, Büsum, Germany
+  - name: Matthieu Authier
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/matthieu-authier/
+    orcid: 0000-0001-7394-1993
+    affiliation: Observatoire pelagis, UAR 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Julia Carlström
+    orcid: 0000-0001-7039-6715
+    affiliation: Department of Population Analysis and Monitoring, Swedish Museum of Natural History, Stockholm, Sweden
+  - name: Mathieu Genu
+    url: https://mathieugenu.github.io/
+    orcid: 0009-0005-0314-1866
+    affiliation: Observatoire pelagis, UAR 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Line Anker Kyhn
+    orcid: 0000-0002-0926-6812
+    affiliation: Marine Mammal Research, Department of Ecoscience, Aarhus University, Roskilde, Denmark
+  - name: Dominik A. Nachtsheim
+    url: https://www.tiho-hannover.de/en/itaw/beschaeftigte/beschaeftigte-buesum/dominik-nachtsheim
+    orcid: 0000-0002-1010-3527
+    affiliation: Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Foundation, Büsum, Germany
+  - name: Nadya C. Ramírez-Martínez
+    url: https://www.tiho-hannover.de/itaw/beschaeftigte/beschaeftigte-buesum/nadya-carolina-ramirez-martinez
+    orcid: 0000-0003-0151-8787
+    affiliation: 
+      - Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Foundation, Büsum, Germany. 
+      - Fundación Macuáticos Medellin, Colombia, Antioquia, Medellin, Colombia
+  - name: Ursula Siebert
+    url: https://www.tiho-hannover.de/itaw/beschaeftigte/beschaeftigte-buesum/prof-prof-h-c-dr-ursula-siebert
+    orcid: 0000-0002-2556-3948
+    affiliation: Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Foundation, Büsum, Germany
+  - name: Martin Sköld
+    url: https://www.su.se/english/profiles/m/mskold
+    affiliation: 
+      - Department of Population Analysis and Monitoring, Swedish Museum of Natural History, Stockholm, Sweden
+      - Department of Mathematics, Stockholm University, Stockholm, Sweden
+  - name: Jonas Teilmann
+    url: https://www.au.dk/en/jte@ecos.au.dk/
+    orcid: 0000-0002-4376-4700
+    affiliation: Marine Mammal Research, Department of Ecoscience, Aarhus University, Roskilde, Denmark
+  - name: Bianca Unger
+    orcid: 0000-0001-9631-0545
+    affiliation: Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Foundation, Büsum, Germany
+  - name: Signe Sveegaard
+    url: https://www.au.dk/en/ssv@ecos.au.dk/
+    orcid: 0000-0002-8893-9842
+    affiliation: Marine Mammal Research, Department of Ecoscience, Aarhus University, Roskilde, Denmark
+image: HP_trend.png
+scientific_journal: "Frontiers in Marine Science"
+doi: 10.3389/fmars.2024.1289808
+anchor-sections: false
+---
+
+## Abstract
+
+The management and conservation of biodiversity relies on information on both the abundance of species and the potential impact of threats. Globally, one of the largest threats towards marine biodiversity is bycatch in fisheries. Under the Marine Strategy Framework Directive (MSFD), EU Member States are required to assess the status of species, such as the harbour porpoise (Phocoena phocoena), in relation to their abundance and mortality due to bycatch every six years. The Vulnerable (HELCOM) Belt Sea population of harbour porpoise has been surveyed to determine its abundance six times using dedicated aerial or ship-based line-transect distance sampling surveys. Here, we estimated the first trend in population abundance over an 18 year period (2005-2022). Using the most recent abundance estimate, we computed a mortality limit applying the modified Potential Biological Removal (mPBR) method based on the regionally agreed conservation objective to restore or maintain 80% of carrying capacity over 100 years with an 80% probability. Over the past 18 years there has been a strong negative trend (-2.7% p.a.; 95% CI: -4.1%; + 1.3%) in abundance, with a 90.5% probability. The mortality limit was estimated to be 24 animals, which the current bycatch estimates (~900 porpoises/year from the commercial Danish and Swedish set net fishery fleets, with no data from Germany and other fishery types) exceed by far. The frequency and quality of data available on abundance for this population are higher than those available for the majority of marine species. Given the observed population decline and likely unsustainable levels of bycatch, the results presented here provide a strong basis to make informed, evidence-based management decisions for action for this population. Such action is needed urgently, before the dire situation of other porpoise species and populations around the globe is repeated.
+
+## Citation
+
+```bibtex
+@Article{Owen_2024,
+  title = {A negative trend in abundance and an exceeded mortality limit call for conservation action for the Vulnerable Belt Sea harbour porpoise population},
+  volume = {11},
+  issn = {2296-7745},
+  url = {http://dx.doi.org/10.3389/fmars.2024.1289808},
+  doi = {10.3389/fmars.2024.1289808},
+  journal = {Frontiers in Marine Science},
+  publisher = {Frontiers Media SA},
+  author = {Kylie Owen and Anita Gilles and Matthieu Authier and Julia Carlstr{\"o}m and Mathieu Genu and Line Anker Kyhn and Dominik A. Nachtsheim and Nadya C. Ram{\a'\i}rez-Mart{\a'\i}nez and Ursula Siebert and Martin Sk{\"o}ld and Jonas Teilmann and Bianca Unger and Signe Sveegaard},
+  year = {2024},
+  month = {Mar},
+}
+```

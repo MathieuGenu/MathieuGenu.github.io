@@ -1,0 +1,50 @@
+---
+title: "The Risky Decrease of Fishing Reference Points Under Climate Change"
+year: 2020
+authors:
+  - name: Morgane Travers-Trolet
+    url: https://annuaire.ifremer.fr/cv/16865/
+    orcid: 0000-0003-1493-662X
+    affiliation: Ifremer, EMH, Rue de l’Île d’Yeu, Nantes, France
+  - name: Pierre Bourdaud
+    url: https://www-iuem.univ-brest.fr/lemar/equipe/bourdaud-pierre/
+    orcid: 0000-0001-5382-081X
+    affiliation: Laboratoire des Sciences de l’Environnement Marin (LEMAR), IUEM Technopôle Brest-Iroise, Plouzané, France
+  - name: Mathieu Genu
+    url: https://mathieugenu.github.io/
+    orcid: 0009-0005-0314-1866
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Laure Velez
+    url: https://umr-marbec.fr/membre/laure-velez/mes-publications/
+    orcid: 0000-0001-9555-6770
+    affiliation: MARBEC, Univ. Montpellier, CNRS, Ifremer, IRD, Montpellier, France
+  - name: Youen Vermard
+    url: https://annuaire.ifremer.fr/cv/16912/
+    orcid: 0000-0003-2828-2815
+    affiliation: Ifremer, EMH, Rue de l’Île d’Yeu, Nantes, France
+image: T_evolution.png
+scientific_journal: "Frontiers in Marine Science"
+doi: 10.3389/fmars.2020.568232
+anchor-sections: false
+---
+
+## Abstract
+In Europe, implementation of sustainable fisheries management has been reinforced in the latest common fisheries policy, and presently marine fish stocks are mostly managed through assessment of their exploitation and ecological status compared to reference points such as Maximum Sustainable Yield (MSY). However, MSY and its associated fishing mortality rate FMSY are sensitive to both stock characteristics and environment conditions. In parallel, climate change impacts are increasingly affecting fish stocks directly and indirectly but might also change the exploitation reference points and the associated level of catch. Here we explored the variability of MSY reference points under climate change by using a multi-species model applied to the Eastern English Channel, a highly exploited semi-continental sea. The spatial individual-based OSMOSE explicitly represents the entire fish life cycle of 14 species interacting through size-based opportunistic predation. The model was first parameterized and run to fit the historical situation (2000–2009) and then used to assess the ecosystem state for the 2050–2059 period, using two contrasting climate change scenarios (RCP 4.5 and RCP 8.5). For each condition, a monospecific MSY estimation routine was performed by varying species fishing mortality independently and allowed estimation of reference points for each species. The FMSY estimated with OSMOSE were mostly in accordance with available values derived from stock assessment and used for fishing advice. Evolution of reference points with climate change was compared across species and highlighted that overexploited cold-water species are likely to have both MSY and FMSY declining with climate warming. Considering all species together, MSY under RCP scenarios was expected to be higher than historical MSY for half of them, with no clear link with species temperature preferences, exploitation status or trophic level, but in relation with expected change of species biomass under climate change. By contrast, for 80% of cases FMSY projections showed consistent decreasing pattern as climate conditions changed from historical to RCP scenarios in the Eastern English Channel. This result constitutes a risk for fisheries management, and anticipation of climate change impacts on fish community would require targeting a smaller fishing mortality than FMSY to ensure sustainable exploitation of marine stocks.
+
+
+## Citation
+
+```bibtex
+@Article{Travers_Trolet_2020,
+  title = {The Risky Decrease of Fishing Reference Points Under Climate Change},
+  volume = {7},
+  issn = {2296-7745},
+  url = {http://dx.doi.org/10.3389/fmars.2020.568232},
+  doi = {10.3389/fmars.2020.568232},
+  journal = {Frontiers in Marine Science},
+  publisher = {Frontiers Media SA},
+  author = {Morgane Travers-Trolet and Pierre Bourdaud and Mathieu Genu and Laure Velez and Youen Vermard},
+  year = {2020},
+  month = {Nov},
+}
+```

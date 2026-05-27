@@ -1,0 +1,56 @@
+```{=html}
+<div class="pub-article-grid">
+<% for (const item of items) { %>
+  <a href="<%- item.path %>" class="pub-article-card">
+    <!-- LEFT CONTENT -->
+    <div class="pub-article-content">
+      <% if(item.title) {%>
+        <div class="pub-article-title">
+          <%- item.title %>
+        </div>
+      <% } %>
+      <% if(item.authors) {%>
+        <div class="pub-article-authors">
+          <% item.authors
+            .filter(a => a.name && a.name.length > 0)
+            .forEach((a, i, arr) => { %>
+            <% if (a.name === "Mathieu Genu") { %><strong><%= a.name %></strong><% } else { %><%= a.name %><% } %><% if (i < arr.length - 1) { %>, <% } %>
+          <% }) %>
+        </div>
+      <% } %>
+      <% if(item.scientific_journal) {%>
+        <div class="pub-article-journal">
+          <%- item.scientific_journal %>
+        </div>
+      <% } %>
+      <% if(item.year) {%>
+        <div class="pub-article-year">
+          <%- item.year %>
+        </div>
+      <% } %>
+      <% if(item.doi) {%>
+        <div class="pub-article-badge">
+          <span class="__dimensions_badge_embed__"
+                data-doi="<%- item.doi %>"
+                data-style="small_rectangle">
+          </span>
+        </div>
+      <% } %>
+    </div>
+    <!-- RIGHT IMAGE -->
+    <% if (item.image) { %>
+      <div class="pub-article-image">
+        <img src="<%- item.image %>" alt="<%- item.title %>">
+      </div>
+    <% } %>
+  </a>
+<% } %>
+</div>
+<script>
+window.addEventListener("load", function () {
+  if (window.__dimensions_embed) {
+    window.__dimensions_embed.render();
+  }
+});
+</script>
+```

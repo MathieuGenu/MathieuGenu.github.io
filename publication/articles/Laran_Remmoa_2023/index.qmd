@@ -1,0 +1,87 @@
+---
+title: "Who lives in the open sea? Distribution and densities of surfacing marine megafauna in three subregions of the South Pacific (New Caledonia, Wallis and Futuna, and French Polynesia)"
+year: 2023
+authors:
+  - name: Sophie Laran
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis/the-team-2/sophie-laran/?lang=en
+    orcid: 0000-0002-9047-524X
+    affiliation: Observatoire Pelagis, UAR 3462, CNRS - La Rochelle Université, La Rochelle, France
+  - name: Olivier Van Canneyt
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis/the-team-2/olivier-van-canneyt/?lang=en
+    orcid: 0000-0002-9779-9319
+    affiliation: Observatoire Pelagis, UAR 3462, CNRS - La Rochelle Université, La Rochelle, France
+  - name: Ghislain Dorémus
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis/the-team-2/ghislain-doremus/?lang=en
+    orcid: 0009-0002-0415-1503
+    affiliation: Observatoire Pelagis, UAR 3462, CNRS - La Rochelle Université, La Rochelle, France
+  - name: Claire Garrigue
+    url: https://umr-entropie.ird.nc/index.php/team/claire-garrigue
+    orcid: 0000-0002-8117-3370
+    affiliation: UMR ENTROPIE (IRD, Université de La Réunion, Université de la Nouvelle-Calédonie, IFREMER, CNRS, Laboratoire d’Excellence CORAIL), BPA5, Nouméa 98848, New Caledonia, France. Opération cétacés, BP12827, Nouméa 98802, New Caledonia, France
+  - name: Tristan Berr
+    orcid: 0000-0002-4443-3727
+    affiliation: UMR ENTROPIE (IRD, Université de La Réunion, Université de la Nouvelle-Calédonie, IFREMER, CNRS, Laboratoire d’Excellence CORAIL), BPA5, Nouméa 98848, New Caledonia, France. Aix Marseille Univ, Avignon Univ, CNRS, IRD, IMBE, Avenue Louis Philibert, Aix-en-Provence 13545, France
+  - name: Hugo Bourgogne
+    affiliation: UMR ENTROPIE (IRD, Université de La Réunion, Université de la Nouvelle-Calédonie, IFREMER, CNRS, Laboratoire d’Excellence CORAIL), BPA5, Nouméa 98848, New Caledonia, France. WWF-France bureau de Nouvelle-Calédonie, BP692, Nouméa 98845, New Caledonia, France
+  - name: Mathieu Genu
+    url: https://mathieugenu.github.io/
+    orcid: 0009-0005-0314-1866
+    affiliation: Observatoire Pelagis, UAR 3462, CNRS - La Rochelle Université, La Rochelle, France
+  - name: Jérôme Spitz
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/jerome-spitz/
+    orcid: 0000-0003-2729-2413
+    affiliation: Observatoire Pelagis, UAR 3462, CNRS - La Rochelle Université, La Rochelle, France
+  - name: Vincent Ridoux
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis/the-team-2/vincent-ridoux/?lang=en
+    orcid: 0000-0002-9779-9319
+    affiliation: Observatoire Pelagis, UAR 3462, CNRS - La Rochelle Université, La Rochelle, France
+image: MM_NC_WF.png
+scientific_journal: "Pacific Conservation Biology"
+doi: 10.1071/PC23023
+anchor-sections: false
+---
+
+## Abstract
+
+__Context__
+Assessing the distribution and abundance of marine fauna and the ecological status of coastal and pelagic ecosystems is key to biodiversity conservation, but the monitoring of mobile marine species raises multiple logistical and financial challenges.
+
+
+__Aims__
+The project describes the distribution, abundance and taxonomic assemblage of several marine megafauna taxa in three subregions of the western and central South Pacific Ocean (New Caledonia, Wallis and Futuna, and French Polynesia).
+
+
+__Methods__
+Large-scale aerial surveys were conducted using a standardised multi-taxon protocol, to characterise the occurrence and abundance of marine megafauna over 2.5 million km2. Analysing more than 122 000 km of transects, the densities of 22 different taxa were estimated: seven taxonomic groups of marine mammals (Physeteridae, Kogiidae, Ziphiidae, Globicephalinae, Small Delphininae, Large Delphininae, and Dugongidae), a single group for hard-shelled sea turtles, three groups of elasmobranchs (including whale sharks), and 11 groups of seabirds (including Phaethontidae, Hydrobatidae, Fregatidae and Sulidae).
+
+
+__Key results__
+Contrasting patterns of species distribution were found. Marine mammal diversity increases north and west, with a distinct species assemblage in New Caledonia, compared to other subregions. A strong latitudinal gradient was observed across French Polynesia, independent of taxa.
+
+
+__Conclusions__
+This study provides the first comparison of marine species assemblages across the three oceanic subregions and sets a regional baseline for the biogeography of marine megafauna in the region.
+
+
+__Implications__
+The taxonomic and spatial extension of the results opens up new perspectives for the development of local conservation measures, especially for taxa with already documented population declines.
+                  
+
+## Citation
+
+```bibtex
+@Article{Laran_2023,
+  title = {Who lives in the open sea? Distribution and densities of surfacing marine megafauna in three subregions of the South Pacific (New Caledonia, Wallis and Futuna, and French Polynesia)},
+  volume = {30},
+  issn = {2204-4604},
+  url = {http://dx.doi.org/10.1071/PC23023},
+  doi = {10.1071/pc23023},
+  number = {1},
+  journal = {Pacific Conservation Biology},
+  publisher = {CSIRO Publishing},
+  author = {Sophie Laran and Olivier {Van Canneyt} and Ghislain Dor{\a'e}mus and Claire Garrigue and Tristan Berr and Hugo Bourgogne and Mathieu Genu and J{\a'e}r{\^o}me Spitz and Vincent Ridoux},
+  editor = {Rochelle Constantine},
+  year = {2023},
+  month = {Dec},
+}
+```

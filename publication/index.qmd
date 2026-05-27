@@ -1,0 +1,25 @@
+---
+title: "Publications"
+format: 
+  html:
+    anchor-sections: false
+    toc: true
+    include-in-header:
+      - text: |
+          <style>
+          .quarto-title {
+            display: none;
+          }
+          </style>
+          <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+listing:
+  - id: articles
+    contents: "articles/*/index.qmd"
+    sort: "year desc"
+    template: ../partials/listings/publication_articles.ejs   
+---
+
+## Scientific articles
+
+:::{#articles}
+:::
