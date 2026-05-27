@@ -1,0 +1,54 @@
+---
+title: "Development of a new control rule for managing anthropogenic removals of protected, endangered or threatened species in marine ecosystems"
+year: 2024
+authors: 
+  - name: Fanny Ouzoulias
+    orcid: 0009-0005-4118-0655
+    affiliation: Laboratoire Biologie des Organismes et Ecosystèmes Aquatiques (BOREA), UMR 8067 - MNHN, CNRS, IRD, SU, UCN, UA, Museum National d’Histoire Naturelle, Paris, France
+  - name: Nicolas Bousquet
+    url: https://perso.lpsm.paris/~bousquet/
+    affiliation: Laboratoire Probabilités, Statistiques et Modélisation, UMR 8001 CNRS, Sorbonne Université, Paris, France
+  - name: Mathieu Genu
+    url: https://mathieugenu.github.io/
+    orcid: 0009-0005-0314-1866
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Anita Gilles
+    url: https://www.tiho-hannover.de/en/itaw/beschaeftigte/beschaeftigte-buesum/anita-gilles
+    orcid: 0000-0001-7234-8645
+    affiliation: Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Büsum, Germany
+  - name: Jérôme Spitz
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/jerome-spitz/
+    orcid: 0000-0003-2729-2413
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Matthieu Authier
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/matthieu-authier/
+    orcid: 0000-0001-7394-1993
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+scientific_journal: PeerJ
+image: ART_efficiency.png
+doi: 10.7717/peerj.16688
+anchor-sections: false
+---
+
+## Abstract
+
+Human activities in the oceans are increasing and can result in additional mortality on many marine Protected, Endangered or Threatened Species (PETS). It is necessary to implement ambitious measures that aim to restore biodiversity at all nodes of marine food webs and to manage removals resulting from anthropogenic activities. We developed a stochastic surplus production model (SPM) linking abundance and removal processes under the assumption that variations in removals reflect variations in abundance. We then consider several ‘harvest’ control rules, included two candidate ones derived from this SPM (which we called ‘Anthropogenic Removals Threshold’, or ART), to manage removals of PETS. The two candidate rules hinge on the estimation of a stationary removal rate. We compared these candidate rules to other existing control rules (e.g. potential biological removal or a fixed percentage rule) in three scenarios: (i) a base scenario whereby unbiased but noisy data are available, (ii) scenario whereby abundance estimates are overestimated and (iii) scenario whereby abundance estimates are underestimated. The different rules were tested on a simulated set of data with life-history parameters close to a small-sized cetacean species of conservation interest in the North-East Atlantic, the harbour porpoise (Phocoena phocoena), and in a management strategy evaluation framework. The effectiveness of the rules were assessed by looking at performance metrics, such as time to reach the conservation objectives, the removal limits obtained with the rules or temporal autocorrelation in removal limits. Most control rules were robust against biases in data and allowed to reach conservation objectives with removal limits of similar magnitude when averaged over time. However, one of the candidate rule (ART) displayed greater alignment with policy requirements for PETS such as minimizing removals over time.
+
+## Citation
+
+```bibtex
+@article{ouzoulias_development_2024,
+	title = {Development of a new control rule for managing anthropogenic removals of protected, endangered or threatened species in marine ecosystems},
+	volume = {12},
+	issn = {2167-8359},
+	url = {https://peerj.com/articles/16688},
+	doi = {10.7717/peerj.16688},
+	language = {en},
+	urldate = {2024-01-08},
+	journal = {PeerJ},
+	author = {Ouzoulias, Fanny and Bousquet, Nicolas and Genu, Mathieu and Gilles, Anita and Spitz, Jérôme and Authier, Matthieu},
+	month = jan,
+	year = {2024},
+	pages = {e16688},
+}
+```

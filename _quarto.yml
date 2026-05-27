@@ -1,10 +1,70 @@
 project:
-  type: hugo
-      
-format: 
-  hugo-md:
-    code-fold: false
+  type: website
+  render: 
+    - "*.qmd"
+  output-dir: docs
+
+  preview:
+    port: 4242
+
+execute:
+  freeze: auto
+
+website:
+  title: "Mathieu Genu"
+  navbar:
+    background: primary
+    title: false
+    search: false
+    logo: "/assets/img/logo_MG.png"
+    left:
+      - href: index.qmd
+        text: Home
+      - about/index.qmd
+      - projects/index.qmd
+      - CV/index.qmd
+      - publication/index.qmd
+      - blog/index.qmd
+  favicon: "/assets/img/favicon_mg/android-chrome-512x512.png"
+  page-footer:
+    left: |
+      Built with [Quarto](https://quarto.org/)<br>
+      © 2026 Mathieu Genu
+    center: 
+      - text: "{{< fa brands github size=xl >}}"
+        href: https://github.com/MathieuGenu
+      - text: "{{< fa brands bluesky size=xl >}}"
+        href: https://bsky.app/profile/mathieugenu.bsky.social
+      - text: "{{< fa brands linkedin size=xl >}}"
+        href: https://www.linkedin.com/in/mathieu-genu-3b3047168/
+      - text: "{{< fa brands google-scholar size=xl >}}"
+        href: https://scholar.google.com/citations?user=MdqaW-oAAAAJ&hl=fr
+    right: |
+      <p>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener">
+        <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons License">
+        </a>
+      </p>
+      <p>
+        <a href="/licence.qmd">Licence</a>
+      </p>
   
-execute: 
-  warning: false
-  cache: true
+
+format:
+  html:
+    # include-before-body: partials/_navbar.html
+    # theme: cosmo
+    toc: false 
+    highlight-style: dracula
+    # toc-location: left
+    page-layout: full
+    reference-location: margin
+    mainfont: Inter
+    monofont: "Source Code Pro"
+    css: styles.css
+    
+    
+resources:
+  - CV/**
+#   - partials/**
+#   - style.css

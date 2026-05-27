@@ -1,0 +1,16 @@
+---
+title: "Projects"
+page-layout: full
+format:
+  html:
+    include-in-header:
+      - text: |
+          <style>
+          .quarto-title {
+            display: none;
+          }
+          </style>
+listing:
+  type: grid
+  fields: [image, title, description, categories]
+---

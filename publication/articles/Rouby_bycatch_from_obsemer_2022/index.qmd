@@ -1,0 +1,78 @@
+---
+title: "Estimating Bycatch From Non-representative Samples (II): A Case Study of Pair Trawlers and Common Dolphins in the Bay of Biscay"
+year: 2022
+authors:
+  - name: Etienne Rouby
+    url: https://etiennerouby.com/
+    orcid: 0009-0004-1049-016X
+    affiliation: 
+      - Observatoire PELAGIS, UMS3462, CNRS-La Rochelle Université, La Rochelle, France
+      - Université de La Rochelle, La Rochelle, France
+      - UMR7372 Centre d'Etudes Biologiques de Chizé (CEBC), Villiers En Bois, France
+  - name: Laurent Dubroca
+    url: https://annuaire.ifremer.fr/cv/17293/en/
+    orcid: 0000-0002-1861-0507
+    affiliation: Ifremer, Laboratoire Ressources Halieutiques de Port en Bessin, Port-en-Bessin-Huppain, France
+  - name: Thomas Cloâtre
+    url: https://annuaire.ifremer.fr/cv/27633/
+    orcid: 0009-0003-3969-7036
+    affiliation: Ifremer, Laboratoire de Biologie Halieutique de Brest, Brest, France
+  - name: Sebastien Demanèche
+    url: https://annuaire.ifremer.fr/cv/17061/
+    orcid: 0009-0001-9867-8180
+    affiliation: Ifremer, Laboratoire de Biologie Halieutique de Brest, Brest, France
+  - name: Mathieu Genu
+    url: https://mathieugenu.github.io/
+    orcid: 0009-0005-0314-1866
+    affiliation: 
+      - Observatoire PELAGIS, UMS3462, CNRS-La Rochelle Université, La Rochelle, France
+      - Université de La Rochelle, La Rochelle, France
+  - name: Kelly Macleod
+    url: https://www.hidefsurveying.co.uk/kelly-macleod/
+    affiliation: Joint Nature Conservation Committee, Aberdeen, United Kingdom
+  - name: Hélène Peltier
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/helene-peltier/
+    affiliation: 
+      - Observatoire PELAGIS, UMS3462, CNRS-La Rochelle Université, La Rochelle, France
+      - Université de La Rochelle, La Rochelle, France
+      - ADERA, Pessac, France
+  - name: Vincent Ridoux
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis/the-team-2/vincent-ridoux/?lang=en
+    orcid: 0000-0002-9779-9319
+    affiliation: 
+      - Observatoire PELAGIS, UMS3462, CNRS-La Rochelle Université, La Rochelle, France
+      - Université de La Rochelle, La Rochelle, France
+      - UMR7372 Centre d'Etudes Biologiques de Chizé (CEBC), Villiers En Bois, France
+  - name: Matthieu Authier
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/matthieu-authier/
+    orcid: 0000-0001-7394-1993
+    affiliation: 
+      - Observatoire PELAGIS, UMS3462, CNRS-La Rochelle Université, La Rochelle, France
+      - Université de La Rochelle, La Rochelle, France
+      - ADERA, Pessac, France
+scientific_journal: "Frontiers in Marine Science"
+doi: 10.3389/fmars.2021.795942
+image: Posterior_trend.png
+anchor-sections: false
+---
+
+## Abstract
+
+Marine megafauna plays an important functional role in marine ecosystems as top predators but are threatened by a wide range of anthropogenic activities. Bycatch, the incidental capture of non-targeted species in commercial and recreational fisheries, is of particular concern for small cetacean species, such as dolphins and porpoises. In the North-East Atlantic, common dolphin (Delphinus delphis, Linné 1758) bycatch has been increasing and associated with large numbers of animals stranding during winter on the French Atlantic seashore since at least 2017. However, uncertainties around the true magnitude of common dolphin bycatch and the fisheries involved have led to delays in the implementation of mitigation measures. Current data collection on dolphin bycatch in France is with non-dedicated observers deployed on vessels for the purpose of national fisheries sampling programmes. These data cannot be assumed representative of the whole fisheries' bycatch events. This feature makes it difficult to use classic ratio estimators since they require a truly randomised sample of the fishery by dedicated observers. We applied a newly developed approach, regularised multilevel regression with post-stratification, to estimate total bycatch from unrepresentative samples and total fishing effort. The latter is needed for post-stratification and the former is analysed in a Bayesian framework with multilevel regression to regularise and better predict bycatch risk. We estimated the number of bycaught dolphins for each week and 10 International Council for the Exploration of the Sea (ICES) divisions from 2004 to 2020 by estimating jointly bycatch risk, haul duration, and the number of hauls per days at sea (DaS). Bycatch risk in pair trawlers flying the French flag was the highest in winter 2017 and 2019 and was associated with the longest haul durations. ICES divisions 8.a and 8.b (shelf part of the Bay of Biscay) were estimated to have the highest common dolphin bycatch. Our results were consistent with independent estimates of common dolphin bycatch from strandings. Our method show cases how non-representative observer data can nevertheless be analysed to estimate fishing duration, bycatch risk and, ultimately, the number of bycaught dolphins. These weekly-estimates improve upon current knowledge of the nature of common dolphin bycatch and can be used to inform management and policy decisions at a finer spatio-temporal scale than has been possible to date. Our results suggest that limiting haul duration, especially in winter, could serve as an effective mitigation strategy.
+
+## Citation
+
+```bibtex
+@Article{Rouby_2022,
+  title = {Estimating Bycatch From Non-representative Samples (II): A Case Study of Pair Trawlers and Common Dolphins in the Bay of Biscay},
+  volume = {8},
+  issn = {2296-7745},
+  url = {http://dx.doi.org/10.3389/fmars.2021.795942},
+  doi = {10.3389/fmars.2021.795942},
+  journal = {Frontiers in Marine Science},
+  publisher = {Frontiers Media SA},
+  author = {Etienne Rouby and Laurent Dubroca and Thomas Clo{\^a}tre and Sebastien Deman{\a`e}che and Mathieu Genu and Kelly Macleod and H{\a'e}l{\a`e}ne Peltier and Vincent Ridoux and Matthieu Authier},
+  year = {2022},
+  month = {Jan},
+}
+```

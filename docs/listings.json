@@ -1,0 +1,26 @@
+[
+  {
+    "listing": "/publication/index.html",
+    "items": [
+      "/publication/articles/Ouzoulias_control_rule_2024/index.html",
+      "/publication/articles/Owen_harbour_purpoise_decline_2024/index.html",
+      "/publication/articles/Laran_Remmoa_2023/index.html",
+      "/publication/articles/Rouby_bycatch_from_obsemer_2022/index.html",
+      "/publication/articles/Genu_RLA_paper_2021/index.html",
+      "/publication/articles/Travers_risky_decrease_2020/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/PelaObs/index.html",
+      "/projects/RLA/index.html",
+      "/projects/SPEE/index.html",
+      "/projects/pelaverse/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": []
+  }
+]

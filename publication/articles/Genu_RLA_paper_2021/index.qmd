@@ -1,0 +1,64 @@
+---
+title: "Evaluating Strategies for Managing Anthropogenic Mortality on Marine Mammals: An R Implementation With the Package RLA"
+year: 2021
+authors: 
+  - name: Mathieu Genu
+    url: https://mathieugenu.github.io/
+    orcid: 0009-0005-0314-1866
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Anita Gilles
+    url: https://www.tiho-hannover.de/en/itaw/beschaeftigte/beschaeftigte-buesum/anita-gilles
+    orcid: 0000-0001-7234-8645
+    affiliation: Institute for Terrestrial and Aquatic Wildlife Research, University of Veterinary Medicine Hannover, Büsum, Germany
+  - name: Philip S. Hammond
+    url: https://www.st-andrews.ac.uk/biology/people/psh2/
+    orcid: 0000-0002-2381-8302
+    affiliation: Sea Mammal Research Unit, Scottish Oceans Institute, University of St Andrews, St Andrews, United Kingdom
+  - name: Kelly Macleod
+    url: https://www.hidefsurveying.co.uk/kelly-macleod/
+    affiliation: Joint Nature Conservation Committee, Aberdeen, United Kingdom
+  - name: Jade Paillé
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+  - name: Iosu Paradinas
+    affiliation: Sea Mammal Research Unit, Scottish Oceans Institute, University of St Andrews, St Andrews, United Kingdom
+  - name: Sophie Smout
+    url: https://www.st-andrews.ac.uk/biology/people/scs10/
+    orcid: 0000-0002-5125-9827
+    affiliation: Sea Mammal Research Unit, Scottish Oceans Institute, University of St Andrews, St Andrews, United Kingdom
+  - name: Arliss J. Winship
+    orcid: 0009-0006-5637-4054
+    affiliation: CSS Inc., Fairfax, VA, United States
+  - name: Matthieu Authier
+    url: https://www.observatoire-pelagis.cnrs.fr/pelagis-2/lequipe/matthieu-authier/
+    orcid: 0000-0001-7394-1993
+    affiliation: Observatoire pelagis, UMS 3462, CNRS-La Rochelle Université, La Rochelle, France
+scientific_journal: Frontiers in Marine Science
+image: RLA_logo.png
+doi: 10.3389/fmars.2021.795953
+anchor-sections: false
+---
+
+
+## Abstract
+
+Bycatch, the undesirable and non-intentional catch of non-target species in marine ﬁsheries, is one of the main causes of mortality of marine mammals worldwide. When quantitative conservation objectives and management goals are clearly deﬁned, computer-based procedures can be used to explore likely population dynamics under different management scenarios and estimate the levels of anthropogenic removals, including bycatch, that marine mammal populations may withstand. Two control rules for setting removal limits are the Potential Biological Removal (PBR) established under the US Marine Mammal Protection Act and the Removals Limit Algorithm (RLA) inspired from the Catch Limit Algorithm (CLA) developed under the Revised Management Procedure of the International Whaling Commission. The PBR and RLA control rules were tested in a Management Strategy Evaluation (MSE) framework. A key feature of PBR and RLA is to ensure conservation objectives are met in the face of the multiple uncertainties or biases that plague real-world data on marine mammals. We built a package named RLA in the R software to carry out MSE of control rules to set removal limits in marine mammal conservation. The package functionalities are illustrated by two case studies carried out under the auspices of the Oslo and Paris convention (OSPAR) (the Convention for the Protection of the Marine Environment of the North-East Atlantic) Marine Mammal Expert Group (OMMEG) in the context of the EU Marine Strategy Framework Directive. The ﬁrst case study sought to tune the PBR control rule to the conservation objective of restoring, with a probability of 0.8, a cetacean population to 80\% of carrying capacity after 100 years. The second case study sought to further develop a RLA to set removals limit on harbor porpoises in the North Sea with the same conservation objective as in the ﬁrst case study. Estimation of the removals limit under the RLA control rule was carried out within the Bayesian paradigm. Outputs from the functions implemented in the package RLA allows the assessment of user-deﬁned performance metrics, such as time to reach a given fraction of carrying capacity under a given level of removals compared to the time needed given no removals.
+
+## Citation
+
+```bibtex
+@article{genu_evaluating_2021,
+	title = {Evaluating {Strategies} for {Managing} {Anthropogenic} {Mortality} on {Marine} {Mammals}: {An} {R} {Implementation} {With} the {Package} {RLA}},
+	volume = {8},
+	issn = {2296-7745},
+	shorttitle = {Evaluating {Strategies} for {Managing} {Anthropogenic} {Mortality} on {Marine} {Mammals}},
+	url = {https://www.frontiersin.org/articles/10.3389/fmars.2021.795953/full},
+	doi = {10.3389/fmars.2021.795953},
+	language = {en},
+	urldate = {2022-11-29},
+	journal = {Frontiers in Marine Science},
+	author = {Genu, Mathieu and Gilles, Anita and Hammond, Philip S. and Macleod, Kelly and Paillé, Jade and Paradinas, Iosu and Smout, Sophie and Winship, Arliss J. and Authier, Matthieu},
+	month = dec,
+	year = {2021},
+	pages = {795953},
+}
+```

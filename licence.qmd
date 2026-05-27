@@ -1,0 +1,59 @@
+---
+title: "Licence / License"
+---
+
+## Licence du contenu
+
+Sauf mention contraire, l’ensemble des contenus de ce site (textes, images, code, etc.) est mis à disposition sous licence :
+
+**Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)**
+
+### Vous êtes autorisé à :
+
+- **Partager** — copier, distribuer et communiquer le contenu
+- **Adapter** — remixer, transformer et créer à partir du contenu
+
+### Selon les conditions suivantes :
+
+- **Attribution** — Vous devez créditer l’auteur (nom, lien vers le site, et indication des modifications éventuelles)
+- **Pas d’utilisation commerciale** — Vous ne pouvez pas utiliser ce contenu à des fins commerciales
+- **Partage dans les mêmes conditions** — Si vous modifiez le contenu, vous devez le diffuser sous la même licence
+
+### Comment citer ce site ?
+
+> Auteur : *Mathieu Genu*  
+> Source : *mathieugenu.github.io*  
+> Licence : CC BY-NC-SA 4.0
+
+👉 https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+---
+
+## Content License
+
+Unless otherwise stated, all content on this site (texts, images, code, etc.) is licensed under:
+
+**Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+
+### You are free to:
+
+- **Share** — copy and redistribute the material
+- **Adapt** — remix, transform, and build upon the material
+
+### Under the following terms:
+
+- **Attribution** — You must give appropriate credit and indicate changes
+- **NonCommercial** — You may not use the material for commercial purposes
+- **ShareAlike** — You must distribute your contributions under the same license
+
+### How to cite this website
+
+> Author: *Mathieu Genu*  
+> Source: *mathieugenu.github.io*  
+> License: CC BY-NC-SA 4.0
+
+👉 https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+---
+
+© 2026 Mathieu Genu

@@ -1,0 +1,133 @@
+---
+title: ""
+format: 
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+
+
+:::{.hero}
+
+:::{.hero-content}
+
+<p></p>
+
+<h1>Transforming data into actionable insights</h1>
+
+<p class="subtitle">Data analysis, visualization & automated reporting</p>
+
+
+:::
+
+:::
+
+
+
+:::{.home-about}
+
+:::{.home-about-image}
+<img src="/assets/img/mg.png"
+     class="img-about-home"
+     alt="Portrait of Mathieu Genu">
+
+:::
+
+:::{.home-about-presentation}
+
+# Mathieu Genu
+
+## Freelance data analyst
+
+Interested in data visualisation, I am continuously learning to improve my skills to highlight what data have to say.
+
+I have sharpened my skills in data manipulation and data visualisation during 10 years of professional experience in ecological modelling and as an R package programmer.
+
+
+
+<div class="home-about-buttons">
+<a href="/about" class="btn-primary">More about me</a>
+</div>
+
+:::
+
+:::
+
+
+<h2 style="padding-top: 2rem; margin-bottom: 0.2rem; text-align: center; font-size: 3rem; font-weight: 600;">
+  Services
+</h2>
+
+<div class="service-container">
+
+<div class="service-card">
+<h3>🔍 Data Analysis</h3>
+<ul>
+<li>Data cleaning and preparation</li>
+<li>Descriptive and inferential statistical analysis</li>
+<li>Modeling and bayesian inference</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>📊 Data Visualization</h3>
+<ul>
+<li>Interactive and static charts</li>
+<li>Custom dashboards</li>
+<li>Advanced visualizations with ggplot2, plotly, etc.</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>💻 Shiny App Development</h3>
+<ul>
+<li>Creation of interactive web applications</li>
+<li>Business/Analysis process automation</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>📄 Automated Reporting with Quarto</h3>
+<ul>
+<li>Dynamic report generation in HTML, PDF, and Word</li>
+<li>Integration of analyses and graphics</li>
+<li>Automated updates</li>
+</ul>
+</div>
+
+<div class="service-card">
+<h3>📦 R Package Development</h3>
+<ul>
+<li>Creation of custom R packages</li>
+<li>Code modularization and documentation</li>
+<li>Package testing and CRAN submission</li>
+</ul>
+</div>
+
+</div>
+
+<div style="padding-top: 2rem; margin-bottom: 1rem; text-align: center; font-size: 2rem">
+📩 **Need a custom service? <a href="mailto:mathieu.genu@gmail.com">Contact me!</a>**
+</div>
+
+
+<h2 style="padding-top: 8rem; margin-bottom: 0.2rem; text-align: center; font-size: 3rem; font-weight: 600;">
+  Featured projects
+</h2>
+
+:::{.card-grid}
+
+<div class="card">
+  <h3>RLA</h3>
+  <p>An R package to estimate removal limit of animals</p>
+  <a href="projects/RLA/index.qmd" class="card-link"></a>
+</div>
+
+<div class="card">
+  <h3>Shiny app</h3>
+  <p>Interactive visualisations of aerial survey campaign results.</p>
+  <a href="projects/SPEE/index.qmd" class="card-link"></a>
+</div>
+
+:::
